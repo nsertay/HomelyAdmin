@@ -7,16 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED03CA0929E4FC3300801EDF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED03CA0829E4FC3300801EDF /* GoogleService-Info.plist */; };
+		ED03CA0C29E4FCBE00801EDF /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = ED03CA0B29E4FCBE00801EDF /* FirebaseAuth */; };
+		ED03CA0E29E4FCBE00801EDF /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = ED03CA0D29E4FCBE00801EDF /* FirebaseDatabase */; };
+		ED03CA1029E4FCBE00801EDF /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = ED03CA0F29E4FCBE00801EDF /* FirebaseFirestore */; };
+		ED03CA1229E4FCBE00801EDF /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = ED03CA1129E4FCBE00801EDF /* FirebaseStorage */; };
 		ED47F41329E4283600EE10EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED47F41229E4283600EE10EA /* AppDelegate.swift */; };
 		ED47F41529E4283600EE10EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED47F41429E4283600EE10EA /* SceneDelegate.swift */; };
-		ED47F41729E4283600EE10EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED47F41629E4283600EE10EA /* ViewController.swift */; };
 		ED47F41A29E4283600EE10EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED47F41829E4283600EE10EA /* Main.storyboard */; };
-		ED47F41D29E4283600EE10EA /* HomelyAdmin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED47F41B29E4283600EE10EA /* HomelyAdmin.xcdatamodeld */; };
 		ED47F41F29E4283600EE10EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED47F41E29E4283600EE10EA /* Assets.xcassets */; };
 		ED47F42229E4283600EE10EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED47F42029E4283600EE10EA /* LaunchScreen.storyboard */; };
 		ED47F42D29E4283700EE10EA /* HomelyAdminTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED47F42C29E4283700EE10EA /* HomelyAdminTests.swift */; };
 		ED47F43729E4283700EE10EA /* HomelyAdminUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED47F43629E4283700EE10EA /* HomelyAdminUITests.swift */; };
 		ED47F43929E4283700EE10EA /* HomelyAdminUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED47F43829E4283700EE10EA /* HomelyAdminUITestsLaunchTests.swift */; };
+		ED47F44629E4286C00EE10EA /* NewApartmentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED47F44529E4286C00EE10EA /* NewApartmentTableViewController.swift */; };
+		ED47F44829E428DA00EE10EA /* RoundedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED47F44729E428DA00EE10EA /* RoundedTextField.swift */; };
+		ED47F44A29E4291200EE10EA /* Apartment.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED47F44929E4291200EE10EA /* Apartment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,12 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED03CA0829E4FC3300801EDF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ED47F40F29E4283600EE10EA /* HomelyAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomelyAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED47F41229E4283600EE10EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED47F41429E4283600EE10EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ED47F41629E4283600EE10EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ED47F41929E4283600EE10EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ED47F41C29E4283600EE10EA /* HomelyAdmin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HomelyAdmin.xcdatamodel; sourceTree = "<group>"; };
 		ED47F41E29E4283600EE10EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED47F42129E4283600EE10EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED47F42329E4283600EE10EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +56,9 @@
 		ED47F43229E4283700EE10EA /* HomelyAdminUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomelyAdminUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED47F43629E4283700EE10EA /* HomelyAdminUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomelyAdminUITests.swift; sourceTree = "<group>"; };
 		ED47F43829E4283700EE10EA /* HomelyAdminUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomelyAdminUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ED47F44529E4286C00EE10EA /* NewApartmentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewApartmentTableViewController.swift; sourceTree = "<group>"; };
+		ED47F44729E428DA00EE10EA /* RoundedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedTextField.swift; sourceTree = "<group>"; };
+		ED47F44929E4291200EE10EA /* Apartment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apartment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED03CA0E29E4FCBE00801EDF /* FirebaseDatabase in Frameworks */,
+				ED03CA1229E4FCBE00801EDF /* FirebaseStorage in Frameworks */,
+				ED03CA0C29E4FCBE00801EDF /* FirebaseAuth in Frameworks */,
+				ED03CA1029E4FCBE00801EDF /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,14 +113,16 @@
 		ED47F41129E4283600EE10EA /* HomelyAdmin */ = {
 			isa = PBXGroup;
 			children = (
+				ED47F44929E4291200EE10EA /* Apartment.swift */,
+				ED47F44529E4286C00EE10EA /* NewApartmentTableViewController.swift */,
+				ED47F44729E428DA00EE10EA /* RoundedTextField.swift */,
 				ED47F41229E4283600EE10EA /* AppDelegate.swift */,
 				ED47F41429E4283600EE10EA /* SceneDelegate.swift */,
-				ED47F41629E4283600EE10EA /* ViewController.swift */,
 				ED47F41829E4283600EE10EA /* Main.storyboard */,
 				ED47F41E29E4283600EE10EA /* Assets.xcassets */,
 				ED47F42029E4283600EE10EA /* LaunchScreen.storyboard */,
 				ED47F42329E4283600EE10EA /* Info.plist */,
-				ED47F41B29E4283600EE10EA /* HomelyAdmin.xcdatamodeld */,
+				ED03CA0829E4FC3300801EDF /* GoogleService-Info.plist */,
 			);
 			path = HomelyAdmin;
 			sourceTree = "<group>";
@@ -146,6 +160,12 @@
 			dependencies = (
 			);
 			name = HomelyAdmin;
+			packageProductDependencies = (
+				ED03CA0B29E4FCBE00801EDF /* FirebaseAuth */,
+				ED03CA0D29E4FCBE00801EDF /* FirebaseDatabase */,
+				ED03CA0F29E4FCBE00801EDF /* FirebaseFirestore */,
+				ED03CA1129E4FCBE00801EDF /* FirebaseStorage */,
+			);
 			productName = HomelyAdmin;
 			productReference = ED47F40F29E4283600EE10EA /* HomelyAdmin.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +238,9 @@
 				Base,
 			);
 			mainGroup = ED47F40629E4283500EE10EA;
+			packageReferences = (
+				ED03CA0A29E4FCBE00801EDF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = ED47F41029E4283600EE10EA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -236,6 +259,7 @@
 			files = (
 				ED47F42229E4283600EE10EA /* LaunchScreen.storyboard in Resources */,
 				ED47F41F29E4283600EE10EA /* Assets.xcassets in Resources */,
+				ED03CA0929E4FC3300801EDF /* GoogleService-Info.plist in Resources */,
 				ED47F41A29E4283600EE10EA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,10 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED47F41729E4283600EE10EA /* ViewController.swift in Sources */,
+				ED47F44629E4286C00EE10EA /* NewApartmentTableViewController.swift in Sources */,
 				ED47F41329E4283600EE10EA /* AppDelegate.swift in Sources */,
+				ED47F44A29E4291200EE10EA /* Apartment.swift in Sources */,
 				ED47F41529E4283600EE10EA /* SceneDelegate.swift in Sources */,
-				ED47F41D29E4283600EE10EA /* HomelyAdmin.xcdatamodeld in Sources */,
+				ED47F44829E428DA00EE10EA /* RoundedTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +466,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9626PS532X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HomelyAdmin/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -468,6 +494,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9626PS532X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HomelyAdmin/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -601,18 +628,39 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCVersionGroup section */
-		ED47F41B29E4283600EE10EA /* HomelyAdmin.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				ED47F41C29E4283600EE10EA /* HomelyAdmin.xcdatamodel */,
-			);
-			currentVersion = ED47F41C29E4283600EE10EA /* HomelyAdmin.xcdatamodel */;
-			path = HomelyAdmin.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
+/* Begin XCRemoteSwiftPackageReference section */
+		ED03CA0A29E4FCBE00801EDF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
 		};
-/* End XCVersionGroup section */
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ED03CA0B29E4FCBE00801EDF /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED03CA0A29E4FCBE00801EDF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		ED03CA0D29E4FCBE00801EDF /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED03CA0A29E4FCBE00801EDF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		ED03CA0F29E4FCBE00801EDF /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED03CA0A29E4FCBE00801EDF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		ED03CA1129E4FCBE00801EDF /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED03CA0A29E4FCBE00801EDF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = ED47F40729E4283500EE10EA /* Project object */;
 }
